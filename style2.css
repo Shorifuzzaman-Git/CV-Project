@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    max-width: 950px;
+    margin: 50px auto;
+    border: 4px rgb(157, 153, 153) solid;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px 5px rgb(155, 153, 153);
+}
+
+.firstPart{
+    background: #0c3c38;
+    color: rgb(238, 232, 232);
+    padding: 30px;
+    /* border-radius: 20px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 30%;
+}
+.secondPart{
+    padding: 30px;
+    width: 65%;
+    box-sizing: border-box;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px rgb(67, 198, 241) solid;
+    box-shadow: 2px 2px 20px 10px rgb(66, 199, 233);
+}
+h1{
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 3px 4px 7px rgb(75, 182, 232);
+}
+h2{
+    color: #b2d8d8;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.firstPart h3{
+    background: #13a89e;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    box-shadow: 2px 3px 5px grey;
+}
+
+
+
+.firstPart h3:hover{
+    box-shadow: 4px 5px 8px grey;
+    font-size: 20px;
+    cursor: pointer;
+    transition: font-size .4s ease;
+}
+
+.aboutMe p{
+    color: rgb(25, 215, 215);
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.section{
+    margin-bottom: 30px;
+}
+
+.firstPart ul li{
+    list-style: none;
+    padding: 5px;
+    font-size: 15px;
+}
+.firstPart ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(238, 232, 232);
+}
+
+.firstPart ul li a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+/* .secondPart .section{
+    height: 30%;
+} */
+
+.secondPart .section h3{
+    color: #07c6b6;
+    background: none;
+    border-bottom: 2px solid #0c3c38;
+    display: inline-block;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 2px 3px 5px grey;
+}
+
+.secondPart .section h3:hover{
+    font-size: 20px;
+    transition: font-size .4s ease;
+    cursor: pointer;
+    box-shadow: 4px 5px 8px grey;
+}
+
+.secondPart .section .skill{
+    /* margin: 5px; */
+    padding-bottom: 20px;
+}
+/* .secondPart .section .skill span{
+    color: aqua;
+    
+} */
+
+.secondPart .section .languageSkill{
+    padding-bottom: 20px;
+}
+.bar {
+  height: 8px;
+  background: #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.filled {
+  height: 100%;
+  background: #0f5a53;
+}
+
+.full {
+  width: 100%;
+}
+
+.ninety {
+  width: 90%;
+}
+
+.fourty{
+    width: 40%;
+}
+
+.thirty{
+    width: 30%;
+}
+
+.eighty {
+  width: 80%;
+}
+
+.ten{
+    width: 10%;
+}
